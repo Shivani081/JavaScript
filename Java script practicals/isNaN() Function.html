@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h1>The isNaN() Method</h1>
+
+<p>isNaN() returns true if a value is NaN:</p>
+
+<p id="demo"></p>
+
+<script>
+let result =
+"Is 0/0 NaN? " + isNaN(0/0) + "<br>" +
+"Is ' ' NaN? " + isNaN(' ') + "<br>" +
+"Is 'A' NaN? " + isNaN('A') + "<br>" +
+"Is true NaN? " + isNaN(true) + "<br>" +
+"Is false NaN? " + isNaN(false);
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
